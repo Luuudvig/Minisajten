@@ -3,3 +3,56 @@
   padding: 0;
   border: 0;
 }
+
+p {
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+
+  background-color: gray;
+
+  display: flex;
+  align-items: center;
+}
+
+header h2 {
+  margin-left: 1vw;
+}
+
+header nav {
+  height: 9vh;
+  right: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.button {
+  background-color: aqua;
+}
